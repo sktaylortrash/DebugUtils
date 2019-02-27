@@ -2,15 +2,16 @@
 
 This library uses Pre-Compiler Directives to enable 4 different levels of serial output for debug testing during firmware development. Disabling Debug can eleminate un-needed serial output code from a finalized firmware
 
-Enabled through the use of #define DEBUGLEVEL 0   {
-    0-3} are acceptable values
+Enabled through the use of #define DEBUGLEVEL 0   
 
-The print statements that are included are
+{ 0-3} are acceptable values
 
-Serial.print(x)
-Serial.println(x)
-Serial.print (x, DEC)
-Serial.print (x, HEX)
+## The print statements that are included are
+
+### Serial.print(x)
+### Serial.println(x)
+### Serial.print (x, DEC)
+### Serial.print (x, HEX)
 
 Additionally Serial.begin(x) is included in the 0 debug level
 
