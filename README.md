@@ -13,7 +13,8 @@ Enabled through the use of #define DEBUGLEVEL 0
 ### Serial.print (x, DEC)
 ### Serial.print (x, HEX)
 
-### Additionally Serial.begin(x) is included in the 0 debug level
+### Serial.begin(x) 
+is included in the 0 debug level
 
 
 ## Installation:
