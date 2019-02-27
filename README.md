@@ -8,13 +8,17 @@ Enabled through the use of #define DEBUGLEVEL 0
 
 ## The print statements that are included are
 
-### Serial.print(x)
-### Serial.println(x)
-### Serial.print (x, DEC)
-### Serial.print (x, HEX)
+Serial.print(x)
 
-### Serial.begin(x) 
-is included in the 0 debug level
+Serial.println(x)
+
+Serial.print (x, DEC)
+
+Serial.print (x, HEX)
+
+Additionally included in the 0 debug level:
+
+Serial.begin(x) 
 
 
 ## Installation:
