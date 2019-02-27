@@ -13,7 +13,7 @@ Enabled through the use of #define DEBUGLEVEL 0
 ### Serial.print (x, DEC)
 ### Serial.print (x, HEX)
 
-Additionally Serial.begin(x) is included in the 0 debug level
+### Additionally Serial.begin(x) is included in the 0 debug level
 
 
 ## Installation:
@@ -25,5 +25,3 @@ An example sketch with a modified version of Blink to use 3 of the 4 debug level
 
 
 Modified from original library by Andreas Spiess as presented in this YouTube video: https://youtu.be/1eL8dXL3Wow
-
-"# DebugUtils" 
